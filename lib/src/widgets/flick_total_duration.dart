@@ -32,7 +32,7 @@ class FlickTotalDuration extends StatelessWidget {
     return Text(
       textDuration,
       style: TextStyle(
-        fontSize: fontSize,
+        fontSize: 15,
         color: color,
       ),
     );

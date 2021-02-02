@@ -62,19 +62,19 @@ class FlickPlayToggle extends StatelessWidget {
     Widget playWidget = playChild ??
         Icon(
           Icons.play_arrow,
-          size: size,
+          size: 30,
           color: color,
         );
     Widget pauseWidget = pauseChild ??
         Icon(
           Icons.pause,
-          size: size,
+          size: 30,
           color: color,
         );
     Widget replayWidget = replayChild ??
         Icon(
           Icons.replay,
-          size: size,
+          size: 30,
           color: color,
         );
 

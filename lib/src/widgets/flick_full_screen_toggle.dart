@@ -52,13 +52,13 @@ class FlickFullScreenToggle extends StatelessWidget {
     Widget enterFullScreenWidget = enterFullScreenChild ??
         Icon(
           Icons.fullscreen,
-          size: size,
+          size: 30,
           color: color,
         );
     Widget exitFullScreenWidget = exitFullScreenChild ??
         Icon(
           Icons.fullscreen_exit,
-          size: size,
+          size: 30,
           color: color,
         );
 
