@@ -37,7 +37,7 @@ class FlickLeftDuration extends StatelessWidget {
     return Text(
       textDuration,
       style: TextStyle(
-        fontSize: 15,
+        fontSize: fontSize,
         color: color,
       ),
     );

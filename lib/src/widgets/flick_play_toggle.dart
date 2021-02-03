@@ -62,25 +62,27 @@ class FlickPlayToggle extends StatelessWidget {
     Widget playWidget = playChild ??
         Icon(
           Icons.play_arrow,
-          size: 30,
+          size: size,
           color: color,
         );
     Widget pauseWidget = pauseChild ??
         Icon(
           Icons.pause,
-          size: 30,
+          size: size,
           color: color,
         );
     Widget replayWidget = replayChild ??
         Icon(
           Icons.replay,
-          size: 30,
+          size: size,
           color: color,
         );
 
     Widget child = videoManager.isVideoEnded
         ? replayWidget
-        : videoManager.isPlaying ? pauseWidget : playWidget;
+        : videoManager.isPlaying
+            ? pauseWidget
+            : playWidget;
 
     return GestureDetector(
         key: key,

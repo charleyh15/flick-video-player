@@ -53,13 +53,13 @@ class FlickSoundToggle extends StatelessWidget {
     Widget muteWidget = muteChild ??
         Icon(
           Icons.volume_off,
-          size: 30,
+          size: size,
           color: color,
         );
     Widget unmuteWidget = unmuteChild ??
         Icon(
           Icons.volume_up,
-          size: 30,
+          size: size,
           color: color,
         );
 

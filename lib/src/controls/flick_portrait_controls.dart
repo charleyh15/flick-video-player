@@ -1,12 +1,12 @@
-import 'package:flutter/material.dart';
 import 'package:flick_video_player/flick_video_player.dart';
+import 'package:flutter/material.dart';
 
 /// Default portrait controls.
 class FlickPortraitControls extends StatelessWidget {
   const FlickPortraitControls(
       {Key key,
-      this.iconSize = 20,
-      this.fontSize = 12,
+      this.iconSize = 50,
+      this.fontSize = 15,
       this.progressBarSettings})
       : super(key: key);
 
@@ -96,6 +96,9 @@ class FlickPortraitControls extends StatelessWidget {
                       ),
                       FlickFullScreenToggle(
                         size: iconSize,
+                      ),
+                      SizedBox(
+                        width: iconSize / 2,
                       ),
                     ],
                   ),

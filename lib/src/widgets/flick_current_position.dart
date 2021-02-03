@@ -33,7 +33,7 @@ class FlickCurrentPosition extends StatelessWidget {
       textPosition,
       style: TextStyle(
         color: color,
-        fontSize: 15,
+        fontSize: fontSize,
       ),
     );
   }
