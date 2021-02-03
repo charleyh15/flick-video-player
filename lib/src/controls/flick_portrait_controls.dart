@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class FlickPortraitControls extends StatelessWidget {
   const FlickPortraitControls(
       {Key key,
-      this.iconSize = 50,
+      this.iconSize = 35,
       this.fontSize = 15,
       this.progressBarSettings})
       : super(key: key);
@@ -98,7 +98,7 @@ class FlickPortraitControls extends StatelessWidget {
                         size: iconSize,
                       ),
                       SizedBox(
-                        width: iconSize / 2,
+                        width: iconSize / 4,
                       ),
                     ],
                   ),

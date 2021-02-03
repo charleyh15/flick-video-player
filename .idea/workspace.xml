@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="780857e3-d011-4d19-95a3-f13490eec973" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/controls/flick_portrait_controls.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/controls/flick_portrait_controls.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/widgets/flick_current_position.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/widgets/flick_current_position.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/widgets/flick_full_screen_toggle.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/widgets/flick_full_screen_toggle.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/widgets/flick_left_duration.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/widgets/flick_left_duration.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/widgets/flick_play_toggle.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/widgets/flick_play_toggle.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/widgets/flick_sound_toggle.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/widgets/flick_sound_toggle.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/widgets/flick_total_duration.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/widgets/flick_total_duration.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
